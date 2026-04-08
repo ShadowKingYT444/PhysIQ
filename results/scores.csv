@@ -1,0 +1,241 @@
+scenario_id,task_type,difficulty,score,notes
+traj_friction_stop_1164290590,trajectory,easy,1.0,"pos=[6.7144, 0.2743], diag=13.61"
+traj_cannon_arc_454011275,trajectory,easy,1.0,"pos=[12.0557, 0.3209], diag=15.04"
+traj_pendulum_release_2051784052,trajectory,easy,1.0,"pos=[10.5422, 0.2813], diag=15.40"
+traj_ramp_launch_978901937,trajectory,easy,1.0,"pos=[13.2731, 0.3526], diag=16.96"
+traj_conveyor_drop_1403892403,trajectory,easy,1.0,"pos=[10.3283, 0.3089], diag=17.24"
+traj_friction_slide_1479670962,trajectory,easy,1.0,"pos=[10.2176, 0.239], diag=13.66"
+traj_table_roll_283366029,trajectory,easy,1.0,"pos=[6.0625, 0.3137], diag=14.43"
+traj_domino_momentum_97537519,trajectory,easy,1.0,"pos=[8.1058, 0.1861], diag=17.66"
+traj_pinball_course_51775550,trajectory,easy,1.0,"pos=[7.2934, 0.2359], diag=15.39"
+traj_lateral_gravity_1475560370,trajectory,easy,1.0,"pos=[0.2961, 0.2956], diag=12.93"
+traj_bounce_path_828271676,trajectory,easy,1.0,"pos=[5.964, 0.3165], diag=12.46"
+traj_multi_bounce_1921982133,trajectory,easy,1.0,"pos=[5.0982, 0.2264], diag=14.51"
+traj_friction_stop_1694138406,trajectory,easy,1.0,"pos=[7.5596, 0.2745], diag=13.32"
+traj_cannon_arc_1970582494,trajectory,easy,1.0,"pos=[13.8662, 0.3353], diag=16.91"
+traj_pendulum_release_1650137956,trajectory,easy,1.0,"pos=[12.0181, 0.2534], diag=16.32"
+traj_ramp_launch_1852180759,trajectory,easy,1.0,"pos=[9.8219, 0.2898], diag=14.21"
+traj_cannon_arc_554957021,trajectory,medium,1.0,"pos=[10.142, 0.2475], diag=16.90"
+traj_conveyor_drop_787973979,trajectory,medium,1.0,"pos=[12.4572, 0.216], diag=16.21"
+traj_multi_bounce_1801292388,trajectory,medium,1.0,"pos=[2.7419, 0.2987], diag=12.77"
+traj_friction_slide_954845188,trajectory,medium,1.0,"pos=[8.4613, 0.2259], diag=14.76"
+traj_pendulum_release_563572482,trajectory,medium,1.0,"pos=[2.8484, 0.3447], diag=16.39"
+traj_lateral_gravity_405383282,trajectory,medium,1.0,"pos=[2.7876, 9.1189], diag=13.25"
+traj_pinball_course_902351421,trajectory,medium,1.0,"pos=[4.2776, 0.2886], diag=15.57"
+traj_table_roll_1324728482,trajectory,medium,1.0,"pos=[7.6527, 0.2086], diag=13.31"
+traj_bounce_path_1870576132,trajectory,medium,1.0,"pos=[4.0545, 0.2502], diag=11.97"
+traj_reverse_trajectory_821210258,trajectory,medium,1.0,"pos=[6.3972, 0.2978], diag=9.90"
+traj_domino_momentum_1412305547,trajectory,medium,1.0,"pos=[6.4622, 0.5801], diag=15.28"
+traj_ramp_launch_535897165,trajectory,medium,1.0,"pos=[12.7405, 0.3446], diag=16.93"
+traj_cannon_arc_335256736,trajectory,medium,1.0,"pos=[8.839, 0.2766], diag=17.68"
+traj_conveyor_drop_21784768,trajectory,medium,1.0,"pos=[10.7863, 0.2863], diag=14.34"
+traj_multi_bounce_1622638706,trajectory,medium,1.0,"pos=[7.7746, 0.4675], diag=13.86"
+traj_friction_slide_471404973,trajectory,medium,1.0,"pos=[9.2949, 0.2431], diag=14.68"
+traj_table_roll_293161341,trajectory,hard,1.0,"pos=[9.8094, 0.2883], diag=14.33"
+traj_cannon_arc_129586884,trajectory,hard,1.0,"pos=[0.5035, 0.1776], diag=16.61"
+traj_pinball_course_695780749,trajectory,hard,1.0,"pos=[7.1457, 0.2251], diag=16.59"
+traj_conveyor_drop_45067270,trajectory,hard,1.0,"pos=[8.3053, 1.6613], diag=14.82"
+traj_domino_momentum_1822760160,trajectory,hard,1.0,"pos=[10.0169, 0.1849], diag=15.68"
+traj_pendulum_release_1063352386,trajectory,hard,1.0,"pos=[13.3253, 0.2173], diag=16.21"
+traj_ramp_launch_1590904567,trajectory,hard,1.0,"pos=[11.0754, 0.2527], diag=16.37"
+traj_reverse_trajectory_1629879456,trajectory,hard,1.0,"pos=[-0.7089, 0.2155], diag=9.31"
+traj_multi_bounce_721924776,trajectory,hard,1.0,"pos=[6.0493, 0.2485], diag=12.18"
+traj_bounce_path_245467083,trajectory,hard,1.0,"pos=[10.938, 0.2221], diag=14.01"
+traj_lateral_gravity_2110194335,trajectory,hard,1.0,"pos=[0.296, 0.295], diag=13.28"
+traj_friction_slide_404400797,trajectory,hard,1.0,"pos=[0.2237, 0.1741], diag=14.57"
+traj_table_roll_1462383203,trajectory,hard,1.0,"pos=[5.7695, 2.7045], diag=13.03"
+traj_cannon_arc_1587787847,trajectory,hard,1.0,"pos=[2.3857, 0.2231], diag=17.01"
+traj_pinball_course_1056418963,trajectory,hard,1.0,"pos=[9.7663, 0.255], diag=15.12"
+traj_conveyor_drop_101244942,trajectory,hard,1.0,"pos=[12.9359, 0.2031], diag=16.89"
+stab_simple_stack_1801479709,stability,easy,1.0,"stable=False, events=5"
+stab_mixed_shapes_2006841885,stability,easy,0.3,"stable=True, events=2"
+stab_arch_1796634279,stability,easy,0.3,"stable=True, events=4"
+stab_simple_stack_224602054,stability,easy,1.0,"stable=False, events=5"
+stab_mixed_shapes_1033080172,stability,easy,0.3,"stable=True, events=2"
+stab_friction_dependent_1373975566,stability,easy,1.0,"stable=False, events=5"
+stab_pyramid_21561026,stability,easy,0.3,"stable=True, events=5"
+stab_chain_collapse_368352852,stability,easy,0.3,"stable=True, events=3"
+stab_offset_stack_1409662143,stability,easy,0.3,"stable=True, events=3"
+stab_simple_stack_379293500,stability,easy,0.3,"stable=True, events=3"
+stab_cantilever_143714892,stability,easy,0.3,"stable=True, events=5"
+stab_mixed_shapes_1296069024,stability,easy,1.0,"stable=False, events=5"
+stab_friction_dependent_1418442352,stability,easy,1.0,"stable=False, events=5"
+stab_offset_stack_1556350979,stability,easy,0.3,"stable=True, events=2"
+stab_arch_182820346,stability,easy,0.3,"stable=True, events=4"
+stab_mixed_shapes_1191047343,stability,easy,0.3,"stable=True, events=2"
+stab_chain_collapse_1398048229,stability,medium,0.3,"stable=True, events=5"
+stab_mixed_shapes_1239810413,stability,medium,1.0,"stable=False, events=5"
+stab_pyramid_686842058,stability,medium,0.3,"stable=True, events=5"
+stab_adversarial_stability_1838987186,stability,medium,1.0,"stable=False, events=5"
+stab_cantilever_719157131,stability,medium,0.3,"stable=True, events=5"
+stab_friction_dependent_945855124,stability,medium,0.3,"stable=True, events=5"
+stab_simple_stack_436421758,stability,medium,0.3,"stable=True, events=5"
+stab_chain_collapse_1817466018,stability,medium,0.3,"stable=True, events=5"
+stab_mixed_shapes_1429455611,stability,medium,1.0,"stable=False, events=5"
+stab_pyramid_2018441127,stability,medium,0.3,"stable=True, events=5"
+stab_cantilever_1509181529,stability,medium,0.3,"stable=True, events=5"
+stab_simple_stack_1917577739,stability,medium,1.0,"stable=False, events=5"
+stab_arch_1628501392,stability,medium,0.3,"stable=True, events=4"
+stab_offset_stack_1750527310,stability,medium,0.3,"stable=True, events=5"
+stab_cantilever_9254809,stability,medium,0.3,"stable=True, events=5"
+stab_friction_dependent_1183295414,stability,medium,0.3,"stable=True, events=5"
+stab_arch_158130466,stability,hard,0.3,"stable=True, events=4"
+stab_friction_dependent_592252840,stability,hard,1.0,"stable=False, events=5"
+stab_cantilever_1276329224,stability,hard,0.3,"stable=True, events=5"
+stab_offset_stack_1573479979,stability,hard,0.3,"stable=True, events=5"
+stab_mixed_shapes_810637317,stability,hard,1.0,"stable=False, events=5"
+stab_arch_1247264194,stability,hard,0.3,"stable=True, events=4"
+stab_chain_collapse_1946270779,stability,hard,0.3,"stable=True, events=5"
+stab_friction_dependent_1358189006,stability,hard,1.0,"stable=False, events=5"
+stab_cantilever_153013494,stability,hard,0.3,"stable=True, events=5"
+stab_simple_stack_1676861832,stability,hard,1.0,"stable=False, events=5"
+stab_offset_stack_1156442794,stability,hard,0.3,"stable=True, events=5"
+stab_adversarial_stability_1363373678,stability,hard,0.3,"stable=True, events=5"
+stab_chain_collapse_1720859974,stability,hard,0.3,"stable=True, events=5"
+stab_friction_dependent_2033438115,stability,hard,1.0,"stable=False, events=5"
+stab_pyramid_828719399,stability,hard,0.3,"stable=True, events=5"
+stab_simple_stack_343242241,stability,hard,0.3,"stable=True, events=5"
+causal_domino_line_1127083814,causal_chain,easy,0.9999999999999999,"events=5, outcome_len=130"
+causal_conservation_chain_1950802620,causal_chain,easy,0.9999999999999999,"events=5, outcome_len=125"
+causal_rube_goldberg_simple_1962822624,causal_chain,easy,0.9999999999999997,"events=13, outcome_len=57"
+causal_seesaw_launch_183464651,causal_chain,easy,0.9999999999999998,"events=14, outcome_len=88"
+causal_domino_line_2139328001,causal_chain,easy,1.0,"events=4, outcome_len=130"
+causal_conservation_chain_1421045312,causal_chain,easy,0.9999999999999999,"events=5, outcome_len=125"
+causal_rube_goldberg_simple_268059290,causal_chain,easy,0.9999999999999999,"events=15, outcome_len=56"
+causal_seesaw_launch_82341141,causal_chain,easy,0.9999999999999999,"events=15, outcome_len=89"
+causal_domino_line_438443215,causal_chain,easy,1.0,"events=4, outcome_len=130"
+causal_conservation_chain_185429777,causal_chain,easy,0.9999999999999999,"events=5, outcome_len=125"
+causal_rube_goldberg_simple_1230893748,causal_chain,easy,0.9999999999999996,"events=11, outcome_len=55"
+causal_seesaw_launch_1396008817,causal_chain,easy,0.9999999999999996,"events=11, outcome_len=91"
+causal_domino_line_653834209,causal_chain,easy,0.9999999999999999,"events=5, outcome_len=130"
+causal_conservation_chain_1542260884,causal_chain,easy,0.9999999999999999,"events=5, outcome_len=125"
+causal_rube_goldberg_simple_543585822,causal_chain,easy,0.9999999999999996,"events=12, outcome_len=55"
+causal_seesaw_launch_37479664,causal_chain,easy,1.0,"events=16, outcome_len=88"
+causal_domino_line_1257363291,causal_chain,medium,0.9999999999999998,"events=7, outcome_len=194"
+causal_branching_chain_1630439065,causal_chain,medium,1.0,"events=26, outcome_len=175"
+causal_timing_gate_478376233,causal_chain,medium,0.9999999999999998,"events=14, outcome_len=101"
+causal_rube_goldberg_complex_1283922956,causal_chain,medium,1.0,"events=50, outcome_len=203"
+causal_seesaw_launch_1641638750,causal_chain,medium,0.9999999999999997,"events=13, outcome_len=89"
+causal_conservation_chain_263301741,causal_chain,medium,0.9999999999999998,"events=7, outcome_len=189"
+causal_rube_goldberg_simple_828280439,causal_chain,medium,0.9999999999999998,"events=14, outcome_len=55"
+causal_domino_line_1611932209,causal_chain,medium,0.9999999999999998,"events=7, outcome_len=194"
+causal_branching_chain_945711262,causal_chain,medium,1.0,"events=26, outcome_len=175"
+causal_timing_gate_1361588927,causal_chain,medium,0.9999999999999998,"events=14, outcome_len=101"
+causal_rube_goldberg_complex_2117266091,causal_chain,medium,1.0,"events=50, outcome_len=203"
+causal_seesaw_launch_393628719,causal_chain,medium,1.0,"events=20, outcome_len=88"
+causal_conservation_chain_269980335,causal_chain,medium,0.9999999999999998,"events=7, outcome_len=189"
+causal_rube_goldberg_simple_138230178,causal_chain,medium,0.9999999999999997,"events=13, outcome_len=55"
+causal_domino_line_18143039,causal_chain,medium,0.9999999999999998,"events=7, outcome_len=194"
+causal_branching_chain_210583763,causal_chain,medium,1.0,"events=26, outcome_len=175"
+causal_timing_gate_495539488,causal_chain,hard,1.0,"events=9, outcome_len=104"
+causal_conservation_chain_1603476111,causal_chain,hard,1.0,"events=9, outcome_len=253"
+causal_near_miss_1411472143,causal_chain,hard,0.9999999999999999,"events=5, outcome_len=63"
+causal_domino_line_659485848,causal_chain,hard,0.9999999999999996,"events=11, outcome_len=290"
+causal_rube_goldberg_complex_1294868279,causal_chain,hard,0.9999999999999982,"events=78, outcome_len=285"
+causal_seesaw_launch_1065180796,causal_chain,hard,1.0,"events=17, outcome_len=92"
+causal_branching_chain_369150277,causal_chain,hard,0.9999999999999982,"events=52, outcome_len=245"
+causal_timing_gate_1827037837,causal_chain,hard,1.0,"events=9, outcome_len=104"
+causal_conservation_chain_1570921569,causal_chain,hard,1.0,"events=9, outcome_len=253"
+causal_near_miss_1754852311,causal_chain,hard,0.9999999999999999,"events=5, outcome_len=63"
+causal_domino_line_1272472050,causal_chain,hard,1.0,"events=9, outcome_len=290"
+causal_rube_goldberg_complex_446948494,causal_chain,hard,0.9999999999999982,"events=78, outcome_len=285"
+causal_seesaw_launch_1108369145,causal_chain,hard,1.0,"events=20, outcome_len=91"
+causal_branching_chain_1569495545,causal_chain,hard,0.9999999999999982,"events=52, outcome_len=245"
+causal_timing_gate_1705067964,causal_chain,hard,1.0,"events=9, outcome_len=104"
+causal_conservation_chain_764740840,causal_chain,hard,1.0,"events=9, outcome_len=253"
+tool_redirect_ball_1693605334,tool_use,easy,1.0,perfect run simulated
+tool_lever_advantage_720892920,tool_use,easy,1.0,perfect run simulated
+tool_launch_and_catch_942553001,tool_use,easy,1.0,perfect run simulated
+tool_reach_height_1484963230,tool_use,easy,1.0,perfect run simulated
+tool_bridge_gap_727307421,tool_use,easy,1.0,perfect run simulated
+tool_redirect_ball_132974404,tool_use,easy,1.0,perfect run simulated
+tool_lever_advantage_1465684388,tool_use,easy,1.0,perfect run simulated
+tool_launch_and_catch_295920795,tool_use,easy,1.0,perfect run simulated
+tool_reach_height_1317898922,tool_use,easy,1.0,perfect run simulated
+tool_bridge_gap_1923217908,tool_use,easy,1.0,perfect run simulated
+tool_redirect_ball_1010450384,tool_use,easy,1.0,perfect run simulated
+tool_lever_advantage_1020886025,tool_use,easy,1.0,perfect run simulated
+tool_launch_and_catch_336959900,tool_use,easy,1.0,perfect run simulated
+tool_reach_height_1343813540,tool_use,easy,1.0,perfect run simulated
+tool_bridge_gap_1454871611,tool_use,easy,1.0,perfect run simulated
+tool_redirect_ball_979659692,tool_use,easy,1.0,perfect run simulated
+tool_clear_path_926226808,tool_use,medium,1.0,perfect run simulated
+tool_bridge_gap_72149803,tool_use,medium,1.0,perfect run simulated
+tool_lever_advantage_67564183,tool_use,medium,1.0,perfect run simulated
+tool_redirect_ball_865040653,tool_use,medium,1.0,perfect run simulated
+tool_launch_and_catch_879617598,tool_use,medium,1.0,perfect run simulated
+tool_reach_height_1298843741,tool_use,medium,1.0,perfect run simulated
+tool_clear_path_1233309593,tool_use,medium,1.0,perfect run simulated
+tool_bridge_gap_1442337443,tool_use,medium,1.0,perfect run simulated
+tool_lever_advantage_549217894,tool_use,medium,1.0,perfect run simulated
+tool_redirect_ball_1905870651,tool_use,medium,1.0,perfect run simulated
+tool_launch_and_catch_833939156,tool_use,medium,1.0,perfect run simulated
+tool_reach_height_1203552594,tool_use,medium,1.0,perfect run simulated
+tool_clear_path_1847854447,tool_use,medium,1.0,perfect run simulated
+tool_bridge_gap_1185694170,tool_use,medium,1.0,perfect run simulated
+tool_lever_advantage_552725974,tool_use,medium,1.0,perfect run simulated
+tool_redirect_ball_18508462,tool_use,medium,1.0,perfect run simulated
+tool_clear_path_1113771356,tool_use,hard,1.0,perfect run simulated
+tool_launch_and_catch_2023283884,tool_use,hard,1.0,perfect run simulated
+tool_redirect_ball_1432332949,tool_use,hard,1.0,perfect run simulated
+tool_lever_advantage_1829572957,tool_use,hard,1.0,perfect run simulated
+tool_bridge_gap_918888369,tool_use,hard,1.0,perfect run simulated
+tool_reach_height_1059244594,tool_use,hard,1.0,perfect run simulated
+tool_clear_path_948681886,tool_use,hard,1.0,perfect run simulated
+tool_launch_and_catch_1686646288,tool_use,hard,1.0,perfect run simulated
+tool_redirect_ball_2084790275,tool_use,hard,1.0,perfect run simulated
+tool_lever_advantage_2112687464,tool_use,hard,1.0,perfect run simulated
+tool_bridge_gap_433930677,tool_use,hard,1.0,perfect run simulated
+tool_reach_height_1845834915,tool_use,hard,1.0,perfect run simulated
+tool_clear_path_1619063528,tool_use,hard,1.0,perfect run simulated
+tool_launch_and_catch_1204427551,tool_use,hard,1.0,perfect run simulated
+tool_redirect_ball_240712544,tool_use,hard,1.0,perfect run simulated
+tool_lever_advantage_1410998643,tool_use,hard,1.0,perfect run simulated
+replan_new_obstacle_1519882979,replan,easy,1.0,perfect recovery simulated
+replan_structural_failure_716912357,replan,easy,1.0,perfect recovery simulated
+replan_material_change_556647531,replan,easy,1.0,perfect recovery simulated
+replan_missing_tool_1427324500,replan,easy,1.0,perfect recovery simulated
+replan_position_drift_1553769744,replan,easy,1.0,perfect recovery simulated
+replan_new_obstacle_1960172788,replan,easy,1.0,perfect recovery simulated
+replan_structural_failure_1581100958,replan,easy,1.0,perfect recovery simulated
+replan_material_change_1032423063,replan,easy,1.0,perfect recovery simulated
+replan_missing_tool_1293281957,replan,easy,1.0,perfect recovery simulated
+replan_position_drift_489137004,replan,easy,1.0,perfect recovery simulated
+replan_new_obstacle_1182617840,replan,easy,1.0,perfect recovery simulated
+replan_structural_failure_376340289,replan,easy,1.0,perfect recovery simulated
+replan_material_change_1187267402,replan,easy,1.0,perfect recovery simulated
+replan_missing_tool_1755773850,replan,easy,1.0,perfect recovery simulated
+replan_position_drift_139695322,replan,easy,1.0,perfect recovery simulated
+replan_new_obstacle_281725739,replan,easy,1.0,perfect recovery simulated
+replan_position_drift_379675102,replan,medium,1.0,perfect recovery simulated
+replan_material_change_542158306,replan,medium,1.0,perfect recovery simulated
+replan_new_obstacle_190194452,replan,medium,1.0,perfect recovery simulated
+replan_missing_tool_369902294,replan,medium,1.0,perfect recovery simulated
+replan_structural_failure_939908278,replan,medium,1.0,perfect recovery simulated
+replan_position_drift_1659646720,replan,medium,1.0,perfect recovery simulated
+replan_material_change_946609698,replan,medium,1.0,perfect recovery simulated
+replan_new_obstacle_708912185,replan,medium,1.0,perfect recovery simulated
+replan_missing_tool_2063197582,replan,medium,1.0,perfect recovery simulated
+replan_structural_failure_1346434469,replan,medium,1.0,perfect recovery simulated
+replan_position_drift_1944196147,replan,medium,1.0,perfect recovery simulated
+replan_material_change_2142953605,replan,medium,1.0,perfect recovery simulated
+replan_new_obstacle_191644020,replan,medium,1.0,perfect recovery simulated
+replan_missing_tool_1444557324,replan,medium,1.0,perfect recovery simulated
+replan_structural_failure_1882360768,replan,medium,1.0,perfect recovery simulated
+replan_position_drift_247721835,replan,medium,1.0,perfect recovery simulated
+replan_material_change_673054490,replan,hard,1.0,perfect recovery simulated
+replan_new_obstacle_1025793483,replan,hard,1.0,perfect recovery simulated
+replan_structural_failure_153807933,replan,hard,1.0,perfect recovery simulated
+replan_position_drift_584562391,replan,hard,1.0,perfect recovery simulated
+replan_missing_tool_685454163,replan,hard,1.0,perfect recovery simulated
+replan_material_change_697827691,replan,hard,1.0,perfect recovery simulated
+replan_new_obstacle_358943977,replan,hard,1.0,perfect recovery simulated
+replan_structural_failure_1601950518,replan,hard,1.0,perfect recovery simulated
+replan_position_drift_1364042562,replan,hard,1.0,perfect recovery simulated
+replan_missing_tool_961440723,replan,hard,1.0,perfect recovery simulated
+replan_material_change_231197609,replan,hard,1.0,perfect recovery simulated
+replan_new_obstacle_1308913639,replan,hard,1.0,perfect recovery simulated
+replan_structural_failure_1757029392,replan,hard,1.0,perfect recovery simulated
+replan_position_drift_347958739,replan,hard,1.0,perfect recovery simulated
+replan_missing_tool_119648038,replan,hard,1.0,perfect recovery simulated
+replan_material_change_577504798,replan,hard,1.0,perfect recovery simulated

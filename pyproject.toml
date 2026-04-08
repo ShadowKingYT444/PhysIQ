@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kaggle-agi-bench"
+version = "0.1.0"
+description = "Minimal local scaffold for a Kaggle Benchmarks submission."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "kaggle-benchmarks>=0.2.0",
+  "python-dotenv>=1.0.1",
+  "pandas>=2.2",
+  "pymunk>=6.0",
+  "numpy>=1.26",
+]

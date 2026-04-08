@@ -1,0 +1,182 @@
+scenario_id,task_type,difficulty,fmt,model,score,error,latency_s,response_snippet
+traj_lateral_gravity_2104755061,trajectory,easy,json,gemini-2.5-flash,0.15,,89.28,"The scenario describes a ball moving under gravity with an unusual `[-9.81, -4.0]` gravity vector (meaning gravity acts strongly to the left, and also downwards). The world also has a `damping` factor of `0.99`, which is critical. The ball has a radius of `0.2` and specific material properties (fric"
+traj_lateral_gravity_2104755061,trajectory,easy,ascii,gemini-2.5-flash,1.0,,199.01,"The problem asks to predict the final position of a ball in a 2D physics scenario after 3.2 seconds. The key elements are gravity, walls, floor, ball properties (radius, initial velocity, bounce, friction). Gravity has both horizontal and vertical components, `A = [-9.81, -4.00] m/s^2`.
+
+**1. Initia"
+traj_lateral_gravity_2104755061,trajectory,easy,nl,gemini-2.5-flash,0.15,,74.14,"The simulation needs to track the ball's position and velocity, accounting for gravity, collisions with the floor, and friction.
+
+**Initial Conditions (t=0):**
+*   Ball position `P_0 = (8.4, 2.8)`
+*   Ball velocity `V_0 = (-1.5, 0.1)` (moving left, slightly up)
+*   Ball radius `R = 0.2 m`
+*   Gravit"
+traj_ramp_launch_1635539511,trajectory,medium,json,gemini-2.5-flash,1.0,,99.8,"The simulation proceeds in several phases:
+
+**Phase 1: Ball rolling down the ramp**
+
+1.  **Ramp Geometry:**
+    *   Ramp start: `[1.42649, 4.44719]`
+    *   Ramp end: `[5.11324, 1.29769]`
+    *   Change in X: `dx = 5.11324 - 1.42649 = 3.68675`
+    *   Change in Y: `dy = 1.29769 - 4.44719 = -3.1495`
+"
+traj_ramp_launch_1635539511,trajectory,medium,ascii,gemini-2.5-flash,0.0,,192.02,"The scenario involves a ball rolling down a ramp, bouncing on the floor, colliding with a wall, and then potentially bouncing and sliding/rolling on the floor until the 5.0-second mark. I will consider gravity, collisions with restitution (bounce), and friction. I will assume standard gravity `g = 9"
+traj_ramp_launch_1635539511,trajectory,medium,nl,gemini-2.5-flash,0.15,,83.5,"The simulation involves several distinct phases:
+1.  **Initial Fall to the Ramp:**
+    *   The ball starts at (1.7, 4.5) with a radius of 0.29 m. Its bottom is at y = 4.5 - 0.29 = 4.21 m.
+    *   The ramp extends from (1.4, 4.4) to (5.1, 1.3). The slope `m = (1.3 - 4.4) / (5.1 - 1.4) = -3.1 / 3.7 ≈ "
+traj_pendulum_release_474140944,trajectory,hard,json,gemini-2.5-flash,0.0,,96.82,"The scenario describes a 'ball' object moving in a 2D world under gravity, subject to collisions with static segments (floor, walls, post, platform). The simulation runs for 6.0 seconds.
+
+Here's a step-by-step mental simulation:
+
+1.  **Initial State Analysis (t=0):**
+    *   **Ball:**
+        *   Po"
+traj_pendulum_release_474140944,trajectory,hard,ascii,gemini-2.5-flash,0.16245350276850865,,113.68,"The simulation involves a ball moving under gravity and interacting with various surfaces. I need to determine the ball's final position after 6.0 seconds.
+
+**1. Initial State and Object Properties:**
+*   **World:** Dimensions 13.850585659402977m (width) x 9.58063855606236m (height). Gravity `g = -9"
+traj_pendulum_release_474140944,trajectory,hard,nl,gemini-2.5-flash,0.0,,91.19,"The scenario describes a 2D space with various walls and a floor, gravity acting downwards. We need to simulate the path of a 'ball' for 6.0 seconds.
+
+Here's a step-by-step mental simulation:
+
+1.  **Initial Setup:**
+    *   Ball radius (r): 0.16 m
+    *   Initial position (center): (3.6, 8.0)
+    * "
+stab_adversarial_stability_78451159,stability,easy,json,gemini-2.5-flash,0.65,,19.26,"The arrangement will not remain stable.
+
+Here's the analysis:
+1.  **Slope Angle:** The `slope` is defined by points `(-1.337, 0.5)` and `(1.337, 1.646)`.
+    *   The rise is `1.646 - 0.5 = 1.146`.
+    *   The run is `1.337 - (-1.337) = 2.674`.
+    *   The angle of inclination `theta` is `atan(1.146 "
+stab_adversarial_stability_78451159,stability,easy,ascii,gemini-2.5-flash,0.65,,45.26,"The scenario describes two blocks, `block_0` and `block_1`, stacked vertically, and a slope. The blocks are 0.392m wide and 0.184m high each. When stacked, they form a combined object that is 0.392m wide and 0.368m high. The floor has friction=0.32. The slope starts at (-1.337, 0.5) and ends at (1.3"
+stab_adversarial_stability_78451159,stability,easy,nl,gemini-2.5-flash,0.5,,74.4,"The analysis of the arrangement proceeds as follows:
+
+**1. Object Geometry and Initial Positions:**
+*   **Diagonal Segment:** Extends from (-1.3, 0.5) to (1.3, 1.6). Its slope is (1.6 - 0.5) / (1.3 - (-1.3)) = 1.1 / 2.6 = 0.423077. The angle of this slope is arctan(0.423077) ≈ 22.92 degrees.
+*   **B"
+stab_cantilever_1214311502,stability,medium,json,gemini-2.5-flash,0.0,,27.24,"The stability of the arrangement depends on whether the combined center of mass (CoM) of the `beam` and `counterweight` system lies within the base of support provided by the `support` object.
+
+1.  **Analyze the `support` object:**
+    *   The `support` is a box with `width = 0.575005831981119` and "
+stab_cantilever_1214311502,stability,medium,ascii,gemini-2.5-flash,0.0,,67.43,"The scenario depicts a structure composed of ""support"" blocks and a ""beam"" resting on top. We need to analyze its stability.
+
+**1. Interpretation of the Support Structure:**
+The ASCII art indicates a base structure of support blocks, followed by two additional support blocks (`##`) directly under th"
+stab_cantilever_1214311502,stability,medium,nl,gemini-2.5-flash,0.0,,29.18,"**Analysis of Initial Setup and Stability:**
+
+1.  **Object Coordinates and Resting Positions (adjusted for gravity):**
+    *   **Floor:** y = 0.0 m
+    *   **Support Block (S):**
+        *   Centered at (0.0, 0.3), 0.6m wide, 0.5m tall.
+        *   Base on floor: y = 0.05 m. Top surface: y = 0.55 m."
+stab_simple_stack_1571746145,stability,hard,json,gemini-2.5-flash,0.65,,15.43,"The arrangement consists of a stack of 8 identical blocks (`block_0` to `block_7`) placed on an inclined static segment (`slope`). `block_0` is the lowest block, resting directly on the `slope`. All blocks are oriented at an angle of 23.9395 degrees.
+
+First, let's determine the angle of the `slope`."
+stab_simple_stack_1571746145,stability,hard,ascii,gemini-2.5-flash,0.5,,56.69,"The arrangement consists of multiple identical blocks. The legend defines the dimensions and properties of a generic block (e.g., `block_0` to `block_7` all share these properties). The visual diagram uses `#` to represent these blocks. While the legend lists 8 named blocks, the diagram shows 19 `#`"
+stab_simple_stack_1571746145,stability,hard,nl,gemini-2.5-flash,0.65,,66.71,"The scenario describes a chain of eight smooth steel rectangular blocks (block_0 to block_7) placed along a diagonal slope under gravity. Gravity acts downwards.
+
+**1. Analyze the Slope and Friction:**
+The diagonal segment (slope) stretches from (-1.4, 0.5) to (1.4, 1.7).
+*   Change in x (dx) = 1.4 "
+causal_rube_goldberg_simple_792665080,causal_chain,easy,json,gemini-2.5-flash,0.23076923076923078,,53.07,"Here's a step-by-step description of the chain reaction:
+
+1.  **Ball Starts Moving and Rolls Down Ramp**: The `ball` is given an initial horizontal velocity of `[0.5, 0]`. Under the influence of gravity and its initial push, the `ball` immediately begins to roll down the `ramp`. It accelerates as it"
+causal_rube_goldberg_simple_792665080,causal_chain,easy,ascii,gemini-2.5-flash,0.15384615384615385,,25.49,"Step-by-step chain description:
+1.  **Ball rolls down ramp:** The ball, initially at rest at the top of the ramp (near x=1.0, y=4.0), begins to roll down the inclined surface under the influence of gravity. It accelerates, gaining speed as it descends.
+2.  **Ball reaches ledge:** The ball transition"
+causal_rube_goldberg_simple_792665080,causal_chain,easy,nl,gemini-2.5-flash,0.0,,75.35,"Here's a step-by-step description of the chain reaction:
+
+**Step 1: The Ball Falls and Rolls Down the Ramp**
+The small steel ball, initially at (1.2, 4.2) with a radius of 0.14m, has its lowest point at (1.2, 4.06). The diagonal ramp starts at (1.0, 4.0) and at x=1.2, its surface is at y=3.9104. The"
+causal_conservation_chain_13273377,causal_chain,medium,json,gemini-2.5-flash,0.07142857142857142,,71.68,"The simulation involves a chain reaction of collisions between identical circular objects, initially resting on a platform with friction. Gravity acts downwards.
+
+Here's a step-by-step breakdown of the events:
+
+1.  **Striker accelerates, then decelerates due to friction, moving towards `cradle_0`:**"
+causal_conservation_chain_13273377,causal_chain,medium,ascii,gemini-2.5-flash,0.21428571428571427,,48.19,"The scenario describes a 2D physics chain reaction involving a striker and five cradle balls on a platform with friction, leading towards a target wall.
+
+**Assumptions:**
+1.  **Initial Velocity:** The problem does not specify the striker's initial velocity. For a quantitative solution, an initial ho"
+causal_conservation_chain_13273377,causal_chain,medium,nl,gemini-2.5-flash,0.21428571428571427,,92.61,"Due to significant ambiguity in the problem statement regarding the Y-coordinates of the balls, the platform, and the wall, a precise, unambiguous simulation is challenging. Specifically, if the balls' centers are at Y=1.1m (radius 0.15m, so bottom at Y=0.95m) and the platform is at Y=1.0m (top surf"
+causal_conservation_chain_503614996,causal_chain,hard,json,gemini-2.5-flash,0.1111111111111111,,74.52,"The chain reaction unfolds as follows:
+
+1.  **Striker's initial motion**: The `striker` (at `x=1.5`, radius `0.15`) is given an initial velocity of `[3.338686857, 0]`. It moves horizontally towards `cradle_0` (at `x=3.0`, radius `0.15`). The distance to collision (when centers are `2*radius = 0.3` a"
+causal_conservation_chain_503614996,causal_chain,hard,ascii,gemini-2.5-flash,0.2222222222222222,,75.92,"Step-by-step chain description:
+
+1.  **Striker Release:** The Striker (a sphere with radius 0.15m) is initially positioned at rest above the platform, approximately (2.15m, 1.65m) (center coordinates, estimated from the diagram, 0.5m above the level of the other cradles). It is released and falls un"
+causal_conservation_chain_503614996,causal_chain,hard,nl,gemini-2.5-flash,0.05555555555555555,,67.97,"In this 2D physics setup, we have a series of steel balls positioned on a horizontal surface, along with a vertical wall. Gravity acts downward. All balls have a radius of 15 cm (0.15 m), elasticity 0.5, and friction 0.3. The floor and platform also have friction 0.3 and the platform has elasticity "
+tool_bridge_gap_1256338301,tool_use,easy,json,gemini-2.5-flash,0.2,,49.07,"[Turn 1]
+The goal is to get the ball from the left platform to the right platform across the gap. The most efficient way to do this is to place the provided plank across the gap to create a bridge.
+
+The left platform ends at x=4.484454181873357 and the right platform starts at x=6.484454181873357. T"
+tool_bridge_gap_1256338301,tool_use,easy,ascii,gemini-2.5-flash,0.2,,92.89,"[Turn 1]
+The goal is to move the ball from the left platform across the gap to the right platform.
+
+Here's the plan:
+1.  **Place the plank:** The plank is long enough to bridge the gap. I will calculate the precise coordinates to place it horizontally, ensuring it rests securely on both platforms an"
+tool_bridge_gap_1256338301,tool_use,easy,nl,gemini-2.5-flash,0.2,,49.05,"[Turn 1]
+The goal is to move the ball from the left platform to the right platform across a gap.
+
+1.  **Bridge the gap:** The most direct way to achieve this is to place `plank_1` as a bridge over the gap. The gap exists between x=4.5 (end of left platform) and x=6.5 (start of right platform) at a h"
+tool_bridge_gap_967297550,tool_use,medium,json,gemini-2.5-flash,0.2,,49.99,"[Turn 1]
+To get the ball from the left platform to the right platform, I will use one of the planks to bridge the gap between them.
+
+First, I will calculate the ideal position for the plank:
+1.  **Gap width**: The right edge of the left platform is at `x = 3.504951233282313`. The left edge of the ri"
+tool_bridge_gap_967297550,tool_use,medium,ascii,gemini-2.5-flash,0.2,,51.12,"[Turn 1]
+The goal is to get the ball from the left platform to the right platform. There is a gap between the platforms. I have two planks available, each 3.8m long. The gap is 3m (6.505 - 3.505 = 3m). A single plank is sufficient to bridge this gap.
+
+**Plan:**
+1.  **Place plank_1:** Position one pl"
+tool_bridge_gap_967297550,tool_use,medium,nl,gemini-2.5-flash,0.02799122974779451,,258.3,"[Turn 1]
+The ball is initially positioned at (2.3, 2.9), above the left platform. The left platform slopes from (3.5, 2.6) down to (1.0, 0.0). This means if the ball simply falls onto the platform, it will roll towards the left, away from the gap and the target right platform.
+
+To achieve the goal, "
+tool_redirect_ball_268345117,tool_use,hard,json,gemini-2.5-flash,0.2,,186.51,"[Turn 1]
+The goal is to redirect the rolling ball to reach the coordinates (10.99, 6.99). The ball is currently at (1.5, 5.0) with an initial velocity suggesting it's moving right and downwards. The target is significantly to the right and higher than the ball's current trajectory.
+
+My strategy invo"
+tool_redirect_ball_268345117,tool_use,hard,ascii,gemini-2.5-flash,0.2815957928026998,,458.6,"[Turn 1]
+The goal is to redirect the rolling ball to reach the target coordinates (10.99, 6.99). The ball is currently at approximately (3.5, 4.0) with a velocity of (4.43, -2.31) m/s. The target is significantly to the right and considerably higher than the ball's current trajectory.
+
+To reach a hi"
+tool_redirect_ball_268345117,tool_use,hard,nl,gemini-2.5-flash,0.2,,209.8,"[Turn 1]
+The goal is to redirect the ball, currently moving right and down, to reach (10.99, 6.99). The ball starts at (1.5, 5.0) and has a radius of 0.2m. The target Y-coordinate (6.99) is significantly higher than the starting Y (5.0), and even higher than the end of the `start_ramp` (4.0). This m"
+replan_material_change_30280491,replan,easy,json,gemini-2.5-flash,0.5,,82.36,"[Turn 1]
+The goal is to get the ball from the left platform to the right platform. I have a plank of sufficient length (3.5m) to bridge the gap between the two platforms, which is 2.0m wide. I will place the plank horizontally, centered over the gap, to create a bridge for the ball.
+
+The left platfo"
+replan_material_change_30280491,replan,easy,ascii,gemini-2.5-flash,0.5,,43.43,"[Turn 1]
+My plan is to place the `plank_1` across the gap to create a bridge for the ball to roll over. The gap is 2.0m wide (from x=4.0877 to x=6.0877). The plank is 3.5m long, which is sufficient. I will center the plank over the gap to ensure equal overlap on both platforms for stability. The pla"
+replan_material_change_30280491,replan,easy,nl,gemini-2.5-flash,0.5,,198.01,"[Turn 1]
+The goal is to move the ball from the left platform across the gap to the right platform.
+The ball is initially positioned at (2.5, 2.9) with a radius of 0.2m. This means its lowest point is at y=2.7m.
+The left platform slopes from (4.1, 2.6) down to (1.0, 0.0). This means it is a ramp risi"
+replan_structural_failure_902667563,replan,medium,json,gemini-2.5-flash,0.5,,170.51,"[Turn 1]
+The goal is to get the ball onto the shelf at height 5.0m. The ball is currently at [1.5, 0.3]. The shelf starts at x=9.31m.
+
+My strategy is to use `ramp_1` to launch the ball directly onto the shelf. This requires careful calculation of the ramp's placement and the force/direction of the p"
+replan_structural_failure_902667563,replan,medium,ascii,gemini-2.5-flash,0.5,,136.93,"[Turn 1]
+To get the ball onto the shelf at 5.0m, I will construct a ramp using the available blocks and ramps. The shelf is at `y=5.0m` and starts around `x=9.3m`. The total height needed is `5.0m`.
+I have two blocks, each 2.25m tall. Stacking them will provide a platform at `y=4.5m` (`2.25m + 2.25m"
+replan_structural_failure_902667563,replan,medium,nl,gemini-2.5-flash,0.5,,125.85,"[Turn 1]
+The goal is to get the ball onto the shelf at height 5.0m. The ball starts at (1.5, 0.3). The shelf is at x=9.3 to 11.5, y=5.0.
+
+My strategy involves building a structure that creates a path for the ball to reach the shelf. I will use the two steel blocks to create a vertical stack to get m"
+replan_structural_failure_890075861,replan,hard,json,gemini-2.5-flash,0.3,,114.25,"[Turn 1]
+My goal is to get the ball onto the shelf at height 7.0m. I have 10 turns.
+My strategy is to build a tall structure (a tower of blocks) near the shelf, bridge the gap to the shelf with a ramp, and then use the remaining ramp and a push action to launch the ball towards this structure.
+
+Here"
+replan_structural_failure_890075861,replan,hard,ascii,gemini-2.5-flash,0.5,,239.69,"[Turn 1]
+The goal is to get the ball onto the shelf at y=7.0m. The ball starts at approximately x=1.5m, y=0.25m. The shelf is at x=9.12m to x=11.5m, y=7.0m.
+
+The main challenge is the significant horizontal distance (approx. 7.6m) and vertical distance (approx. 6.75m) to cover. My tools are three bl"
+replan_structural_failure_890075861,replan,hard,nl,gemini-2.5-flash,0.5,,112.72,"[Turn 1]
+My strategy is to build a two-block high tower next to the shelf, then bridge the remaining vertical and horizontal distance with a ramp. Finally, I will push the ball towards the ramp.
+
+Here's the detailed plan:
+1.  **Place `block_1`**: Position `block_1` as the base of the tower. It is 0."
