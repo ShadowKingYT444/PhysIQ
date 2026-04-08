@@ -5,7 +5,7 @@
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 Get up and running with PhysIQ in minutes.
 
@@ -25,7 +25,7 @@ python run_eval.py --list-models
 
 ---
 
-## 🎯 What This Benchmarks
+##What this measures
 
 PhysIQ tests whether LLMs can **mentally simulate 2D physics** — not just recall textbook equations. It features five tasks of increasing cognitive complexity:
 
@@ -74,11 +74,10 @@ writeup.md               # Competition writeup
 | **Gemini 2.5 Flash** | 0.300 | Replanning (0.478) | Causal Chain (0.142) | 0.717 |
 | **Gemini 2.5 Pro** | 0.318 | Replanning (0.500) | Causal Chain (0.132) | 0.704 |
 
-> **Note:** All three models converge to ~0.31 on diverse, non-standard physics scenarios — confirming the benchmark measures genuine physical reasoning that cannot be solved through simple equation recall or pattern matching.
 
 ---
 
-## 🤖 Supported Models
+## Supported Models
 
 Run evaluations across multiple providers. Set the respective environment variable for your chosen API:
 
